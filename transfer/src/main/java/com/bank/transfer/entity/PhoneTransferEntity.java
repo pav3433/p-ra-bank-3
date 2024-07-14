@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.FieldDefaults;
+import lombok.Builder;
 
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -19,6 +20,7 @@ import java.util.Objects;
 /**
  * Entity для таблицы phone_transfer
  */
+@Builder
 @Entity
 @Getter
 @Setter
