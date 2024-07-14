@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.FieldDefaults;
+import lombok.Builder;
+
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -19,6 +21,7 @@ import java.util.Objects;
 /**
  * Entity для таблицы account_transfer
  */
+@Builder
 @Entity
 @Getter
 @Setter

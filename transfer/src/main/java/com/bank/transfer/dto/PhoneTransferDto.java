@@ -8,6 +8,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.FieldDefaults;
+import lombok.Builder;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -15,6 +16,7 @@ import java.math.BigDecimal;
 /**
  * ДТО {@link PhoneTransferEntity}
  */
+@Builder
 @Getter
 @Setter
 @EqualsAndHashCode
